@@ -10,7 +10,7 @@ export default function Navbars() {
      <Container>
        <Navbar.Brand  href='#home'>
 
-         PORTFOLIO
+         AEKARATSHOP
 
        </Navbar.Brand>
 
@@ -20,6 +20,11 @@ export default function Navbars() {
           <Nav.Link as={Link} to="/pagehome">home</Nav.Link>
           <Nav.Link href="#">about</Nav.Link>
         </Nav>
+        <Nav className="justify-content-end">
+          <Nav.Link as={Link} to="/pagehome">Register</Nav.Link>
+          <Nav.Link href="#">Login</Nav.Link>
+        </Nav>
+        
       </Navbar.Collapse>
      </Container>
 
