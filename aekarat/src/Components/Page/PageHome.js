@@ -18,7 +18,7 @@ export default function PageHome() {
     <div className="home-body mt-5">
       <Container>
         <Row>
-          <Col >
+          
             <Carousel>
               <Carousel.Item interval={1000}>
                 <img
@@ -45,12 +45,13 @@ export default function PageHome() {
                 />
               </Carousel.Item>
             </Carousel>
-          </Col>
+          
         </Row>
       </Container>
 
       <Container>
         <Row>
+          
           <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
@@ -139,6 +140,7 @@ export default function PageHome() {
                 <Button variant="success">Add to Cart</Button>
               </Card.Body>
             </Card>
+            
         </Row>
       </Container>
     </div>
